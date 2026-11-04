@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="100%" stop-color="#141820"/>
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="glowSilver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.2)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Frame -->
+  <rect width="600" height="360" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5"/>
+  
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#eab308" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#22c55e" opacity="0.8"/>
+  <text x="300" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="500" text-anchor="middle">AI-Powered BI Assistant • LangChain + Streamlit</text>
+
+  <!-- Left Query / Prompt Panel -->
+  <rect x="20" y="58" width="240" height="280" rx="10" fill="#11151c" stroke="#334155" stroke-width="1"/>
+  <text x="36" y="86" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="600">💬 Natural Language Query</text>
+  
+  <!-- Chat bubble 1 -->
+  <rect x="34" y="104" width="212" height="46" rx="8" fill="#1e2430" stroke="#475569" stroke-width="0.8"/>
+  <text x="44" y="122" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">"What was Q3 profit margin</text>
+  <text x="44" y="138" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">compared to target?"</text>
+
+  <!-- AI Response / RAG Node -->
+  <rect x="34" y="162" width="212" height="110" rx="8" fill="url(#glowSilver)" stroke="#94a3b8" stroke-width="1"/>
+  <circle cx="48" cy="180" r="4" fill="#38bdf8"/>
+  <text x="58" y="184" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">GenAI &amp; RAG Pipeline</text>
+  <text x="44" y="206" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="10.5">Vector Search: 98% match</text>
+  <text x="44" y="224" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="10.5">Calculated KPI: +18.4% YoY</text>
+  <rect x="44" y="238" width="120" height="20" rx="4" fill="#1e293b"/>
+  <text x="52" y="252" fill="#a5f3fc" font-family="monospace" font-size="10">SELECT KPI, Margin...</text>
+
+  <!-- Input Box -->
+  <rect x="34" y="286" width="212" height="38" rx="6" fill="#0b0f17" stroke="#475569" stroke-width="1"/>
+  <text x="46" y="310" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Ask data questions...</text>
+  <circle cx="228" cy="305" r="10" fill="#e2e8f0"/>
+  <path d="M224 305 L231 301 L231 309 Z" fill="#0f172a"/>
+
+  <!-- Right Dashboard Panel -->
+  <rect x="280" y="58" width="300" height="280" rx="10" fill="#11151c" stroke="#334155" stroke-width="1"/>
+  <text x="296" y="86" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="600">📊 Automated Business Insights</text>
+
+  <!-- KPI Metric Cards -->
+  <rect x="296" y="104" width="86" height="54" rx="6" fill="#1a202c" stroke="#334155" stroke-width="1"/>
+  <text x="304" y="122" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Total Revenue</text>
+  <text x="304" y="144" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">$2.45M</text>
+
+  <rect x="390" y="104" width="86" height="54" rx="6" fill="#1a202c" stroke="#334155" stroke-width="1"/>
+  <text x="398" y="122" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Profit Margin</text>
+  <text x="398" y="144" fill="#34d399" font-family="system-ui, sans-serif" font-size="15" font-weight="700">24.8%</text>
+
+  <rect x="484" y="104" width="82" height="54" rx="6" fill="#1a202c" stroke="#334155" stroke-width="1"/>
+  <text x="492" y="122" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Accuracy</text>
+  <text x="492" y="144" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="15" font-weight="700">99.2%</text>
+
+  <!-- Visual Chart Graphic -->
+  <rect x="296" y="170" width="270" height="154" rx="8" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <!-- Chart grid lines -->
+  <line x1="312" y1="200" x2="550" y2="200" stroke="#1e293b" stroke-dasharray="3 3"/>
+  <line x1="312" y1="240" x2="550" y2="240" stroke="#1e293b" stroke-dasharray="3 3"/>
+  <line x1="312" y1="280" x2="550" y2="280" stroke="#1e293b" stroke-dasharray="3 3"/>
+  
+  <!-- Silver trend curve -->
+  <path d="M316 270 Q 360 250, 390 220 T 460 210 T 540 185" fill="none" stroke="url(#silverGrad)" stroke-width="3"/>
+  <!-- Area fill -->
+  <path d="M316 270 Q 360 250, 390 220 T 460 210 T 540 185 L540 290 L316 290 Z" fill="url(#glowSilver)" opacity="0.4"/>
+  <circle cx="390" cy="220" r="4" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="460" cy="210" r="4" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="540" cy="185" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+  <text x="312" y="308" fill="#64748b" font-family="system-ui, sans-serif" font-size="9.5">Jan</text>
+  <text x="385" y="308" fill="#64748b" font-family="system-ui, sans-serif" font-size="9.5">Apr</text>
+  <text x="455" y="308" fill="#64748b" font-family="system-ui, sans-serif" font-size="9.5">Jul</text>
+  <text x="530" y="308" fill="#64748b" font-family="system-ui, sans-serif" font-size="9.5">Oct</text>
+</svg>

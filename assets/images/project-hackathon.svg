@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a0f"/>
+      <stop offset="100%" stop-color="#141722"/>
+    </linearGradient>
+    <linearGradient id="silverTrophy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="360" rx="16" fill="url(#bgGrad3)" stroke="#334155" stroke-width="1.5"/>
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#eab308" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#22c55e" opacity="0.8"/>
+  <text x="300" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="500" text-anchor="middle">LG Soft-Code for Good Challenge • Competitive Coding &amp; AI</text>
+
+  <!-- Left: Code & Algorithm Terminal -->
+  <rect x="24" y="60" width="310" height="276" rx="10" fill="#0b0e14" stroke="#1e293b" stroke-width="1"/>
+  <text x="40" y="90" fill="#a5f3fc" font-family="monospace" font-size="11"># LG Soft Challenge - Round 1</text>
+  <text x="40" y="112" fill="#cbd5e1" font-family="monospace" font-size="11">class Solution:</text>
+  <text x="56" y="132" fill="#93c5fd" font-family="monospace" font-size="11">def optimizeRoute(data):</text>
+  <text x="72" y="152" fill="#e2e8f0" font-family="monospace" font-size="11">graph = buildGraph(data)</text>
+  <text x="72" y="172" fill="#e2e8f0" font-family="monospace" font-size="11">dp = [float('inf')] * N</text>
+  <text x="72" y="192" fill="#34d399" font-family="monospace" font-size="11"># Complexity: O(N log N)</text>
+  <text x="72" y="212" fill="#e2e8f0" font-family="monospace" font-size="11">return minCostFlow(graph)</text>
+  <rect x="40" y="235" width="278" height="42" rx="6" fill="#141c2b" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="52" y="254" fill="#38bdf8" font-family="monospace" font-size="11">STATUS: ALL TEST CASES PASSED</text>
+  <text x="52" y="270" fill="#94a3b8" font-family="monospace" font-size="10">Runtime: 12ms (Beats 98.4%)</text>
+  <text x="40" y="310" fill="#64748b" font-family="monospace" font-size="11">&gt; Qualifying score verified_</text>
+
+  <!-- Right: Achievement Badge & Details -->
+  <rect x="354" y="60" width="222" height="276" rx="10" fill="#111622" stroke="#334155" stroke-width="1"/>
+  <circle cx="465" cy="120" r="42" fill="#1e293b" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Trophy Icon in Silver -->
+  <path d="M453 100 L477 100 L473 125 C473 133 468 138 465 138 C462 138 457 133 457 125 Z" fill="url(#silverTrophy)"/>
+  <path d="M453 104 C445 104 445 116 455 118" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+  <path d="M477 104 C485 104 485 116 475 118" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+  <rect x="461" y="138" width="8" height="12" fill="#94a3b8"/>
+  <rect x="453" y="150" width="24" height="6" rx="2" fill="#cbd5e1"/>
+
+  <text x="465" y="190" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Round-1 Qualifier</text>
+  <text x="465" y="208" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">LG Soft-Code for Good</text>
+  
+  <rect x="374" y="230" width="182" height="84" rx="8" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <text x="386" y="252" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Key Strengths:</text>
+  <text x="386" y="272" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10.5">• Algorithmic Optimization</text>
+  <text x="386" y="290" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10.5">• Real-time Problem Solving</text>
+  <text x="386" y="306" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10.5">• Scalable System Logic</text>
+</svg>
