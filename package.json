@@ -1,24 +1,8 @@
 {
-  "name": "meghana-portfolio",
+  "name": "meghanas-portfolio",
   "version": "1.0.0",
   "description": "Personal Portfolio of Nelakurthi Meghana - AI, Data Analytics & Software Engineer",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "keywords": [
-    "portfolio",
-    "ai",
-    "genai",
-    "rag",
-    "powerbi",
-    "python",
-    "data-analytics"
-  ],
-  "author": "Nelakurthi Meghana",
-  "license": "MIT",
-  "dependencies": {
-    "isomorphic-git": "^1.44.10"
+    "build": "echo 'Build complete'"
   }
 }
